@@ -1,3 +1,5 @@
+<!-- 2.6exam -- 简单的文本排列组成的页面（大雾 -->
+<!-- 只是因为突然来兴致了就整了很多乱七八糟的... -->
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
@@ -16,6 +18,39 @@
       #withImg2 {
         background: url("images/icon2.png") 55% 100% no-repeat;
         background-size: 40% 100%;
+      }
+      /* 实现鼠标停留时背景图消失效果 */
+      #withImg1:hover {
+        background:rgba(255,255,255,0);
+      }
+      #withImg2:hover {
+        background:rgba(255,255,255,0);
+      }
+      /* 设置两个标题的动画效果：背景图缩小到0x0 */
+      @keyframes shrink-disappear_1 {
+        0% {
+          background-size: 15% 100%;
+        }
+        100% {
+          background-size: 0% 0%;
+        }
+      }
+      @keyframes shrink-disappear_2 {
+        0% {
+          background-size: 40% 100%;
+        }
+        100% {
+          background-size: 0% 0%;
+        }
+      }
+      /* 将两个标题的元素与动画绑定 */
+      #withImg1 {
+        animation: shrink-disappear_1 3s 45s 1;
+        animation-fill-mode: forwards; /* 使动画结束后维持结束状态 */
+      }
+      #withImg2 {
+        animation: shrink-disappear_2 3s 45s 1;
+        animation-fill-mode: forwards; /* 使动画结束后维持结束状态 */
       }
     </style>
   </head>
@@ -41,4 +76,12 @@
       </p>
     </div>
   </body>
+  <script>
+    /* 每十秒一条消息 */
+    setTimeout("alert('盯着这个静态页面看10秒钟有什么意义吗？')",10000);
+    setTimeout("alert('或许你把鼠标移动到了它身上')",20000);
+    setTimeout("alert('你问为什么你把鼠标移过去它们就不见了？')",30000);
+    setTimeout("alert('因为它们不想被你碰')",40000);
+    setTimeout("alert('哦它们这下是彻底不见了')",50000);
+  </script>
 </html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>表单练习2</title>
+    <style>
+      table {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table cellpadding="10px">
+        <caption><h1>请填写注册信息</h1></caption>
+        <tr>
+          <td>学号</td>
+          <td><input type="text" name="studentNum" placeholder="输入8位学号" required /></td>
+        </tr>
+        <tr>
+          <td>姓名</td>
+          <td>
+            <input type="text" name="studentName" required />
+          </td>
+        </tr>
+        <tr>
+          <td>性别</td>
+          <td>
+            <input type="radio" name="sex" value="male" id="male" required />
+            <label for="male"><img src="images/man.jpg">男</label>
+            <input type="radio" name="sex" value="female" id="female" required />
+            <label for="female"><img src="images/women.jpg">女</label>
+          </td>
+        </tr>
+        <tr>
+          <td>生日</td>
+          <td><input type="date" name="birthDay" required /></td>
+        </tr>
+        <tr>
+          <td>学院</td>
+          <td>
+            <select>
+              <option value="人工智能学院">人工智能学院</option>
+              <option value="先进制造技术学院">先进制造技术学院</option>
+              <option value="电气技术学院">电气技术学院</option>
+              <option value="汽车学院">汽车学院</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>自我介绍</td>
+          <td>
+            <textarea></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" value="提交" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

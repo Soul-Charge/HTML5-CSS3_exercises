@@ -9,4 +9,4 @@
 * [CSS练习1](CSS练习1/index.html)  
 * [CSS练习2](CSS练习2/index.html)  
 * [CSS练习3](CSS练习3/index.html)  
-* [CSS练习4：文本和字体](CSS练习4-文本/index.html)  
+* [CSS练习4](CSS练习4/index.html)  

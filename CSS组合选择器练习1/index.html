@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+    <style>
+      @font-face {
+        font-family: myFont1;
+        src: url(fonts/FZJZJW.TTF);
+      }
+      .clname {
+        color: #C69500;
+      }
+      .clname a{
+        color: #C69500;
+        text-decoration: none;
+      }
+      h2.clname {
+        font-family: myFont1;
+        font-size: 32px;
+      }
+      /* 选择文本“软件2104” */
+      ul.clname > li > a{
+        font-family: myFont1;
+        font-size: 32px;
+      }
+      /* 选择“软件2108”后的“1组”“2组” */
+      ul.clname > li > ul > li > a {
+        font-style: italic;
+      }
+      h1,h2.clname {
+        font-family: myFont1;
+        font-size: 64px;
+      }
+      /* 下面的CSS是第二题 */
+      /* 选择文本“软件2104” 鼠标悬浮时 */
+      ul.clname > li > a:hover {
+        color: blue;
+      }
+      /* 选择“软件2108”后的“1组”“2组” 鼠标悬浮时 */
+      ul.clname > li > ul > li > a:hover {
+        color: blue;
+      }
+    </style>
+	</head>
+	<body>
+		<h2 class="clname">班级</h2>
+		<ul class="clname">
+			<li><a href="#">软件2104</a></li>
+			<li>软件2105</li>
+			<li>软件2106</li>
+			<li>软件2107</li>
+			<li>
+				软件2108
+				<ul>
+					<li><a href="#">1组</a></li>
+					<li><a href="#">2组</a></li>
+				</ul>
+			</li>
+
+		</ul>
+		<h1 class="college">学院</h1>
+		<ul class="college">
+			<li><a href="#">人工智能学院</a></li>
+			<li><a href="#">汽车学院</a></li>
+		</ul>
+		<a href="#">学校主页</a>
+	</body>
+</html>

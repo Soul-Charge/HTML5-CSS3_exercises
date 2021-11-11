@@ -14,3 +14,4 @@
 * [CSS背景练习1](CSS背景练习1/index.html)  
 * [CSS背景练习2](CSS背景练习2/index.html)  
 * [CSS背景练习3](CSS背景练习3/index.html)  
+* [CSS背景练习4](CSS背景练习4/index.html)  

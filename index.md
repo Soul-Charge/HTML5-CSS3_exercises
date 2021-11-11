@@ -11,3 +11,4 @@
 * [CSS练习3](CSS练习3/index.html)  
 * [CSS练习4](CSS练习4/index.html)  
 * [CSS组合选择器练习1](CSS组合选择器练习1/index.html)  
+* [CSS背景练习1](CSS背景练习1/index.html)  

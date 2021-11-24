@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div#container {
+      width: 1200px;
+      height: 600px;
+      margin: 0 auto;
+      /* background-color: skyblue; */
+    }
+    div#innerBox {
+      width: 200px;
+      height: 600px;
+      background-color: cyan;
+      float: left;
+    }
+    div#subContainer {
+      width: 1000px;
+      height: 600px;
+      background-color: lawngreen;
+      float: left;
+    }
+    div.boxInSub {
+      width: 225px;
+      height: 290px;
+      background-color: Aquamarine ;
+      float: left;
+      margin: 0 0 0 25px;
+    }
+    /* 给八个盒子中的后四个添加上边距 */
+    div.boxInSub:nth-last-child(1), div.boxInSub:nth-last-child(2), div.boxInSub:nth-last-child(3), div.boxInSub:nth-last-child(4) {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="innerBox"></div>
+    <div id="subContainer">
+      <div class="boxInSub"></div>
+      <div class="boxInSub"></div>
+      <div class="boxInSub"></div>
+      <div class="boxInSub"></div>
+      <div class="boxInSub"></div>
+      <div class="boxInSub"></div>
+      <div class="boxInSub"></div>
+      <div class="boxInSub"></div>
+    </div>
+  </div>
+</body>
+
+</html>

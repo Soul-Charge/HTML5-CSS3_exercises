@@ -23,3 +23,4 @@
 * [CSS盒子阴影练习1](CSS盒子阴影练习1/index.html)  
 * [CSS盒子浮动练习1](CSS盒子浮动练习1/index.html)  
 * [CSS盒子浮动练习2](CSS盒子浮动练习2/index.html)  
+* [CSS盒子浮动练习3](CSS盒子浮动练习3/index.html)  

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>标签的定位</title>
+  <style type="text/css">
+    body {
+      margin: 0px;
+      padding: 0px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .father {
+      /* 加一个空的相对定位使子元素得以绝对定位 */
+      position: relative;
+      margin: 10px auto;
+      width: 300px;
+      height: 300px;
+      padding: 10px;
+      background: #ccc;
+      border: 1px solid #000;
+    }
+
+    .child01,
+    .child02,
+    .child03 {
+      width: 100px;
+      height: 50px;
+      line-height: 50px;
+      background: #ff0;
+      border: 1px solid #000;
+      margin: 10px 0px;
+      text-align: center;
+    }
+
+    .child01 {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      /*  神奇的问题
+       *  chrome视窗调到125%或者其他大小时，child-01左边框无法和父元素边框重合，看起来有一点点间距
+       */
+    }
+
+    .child02 {
+      position: absolute;
+      /* 父元素内：320px - 子元素：101px（只考虑右边框） -1px (不重合边框) = 218px*/
+      /* left: 218px; */
+      right: 0px;
+      top: 0px;
+    }
+
+    .child03 {
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="father">
+    <div class="child01">child-01</div>
+    <div class="child02">child-02</div>
+    <div class="child03">child-03</div>
+  </div>
+</body>
+
+</html>

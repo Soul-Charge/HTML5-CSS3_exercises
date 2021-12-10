@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+    <style>
+      div.p {
+        position: relative;
+        width: 590px;
+        height: 470px;
+        margin: 0px auto;
+      }
+      .arrow {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+      div.arrow {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.3);
+        line-height: 30px;
+        font-size: x-large;
+      }
+      div.arrow:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      div.left {
+        position: absolute;
+        left: 0px;
+        /* 父元素高470 / 2 - 子元素高30 / 2 */
+        top: 220px;
+        /* 右圆角 */
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+      }
+      div.right {
+        position: absolute;
+        right: 0px;
+        /* 父元素高470 / 2 - 子元素高30 / 2 */
+        top: 220px;
+        /* 左圆角 */
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+      }
+      /* 使箭头靠左和靠右 */
+      div.left > a {
+        position: absolute;
+        left: 0px;
+      }
+      div.right > a {
+        position: absolute;
+        right: 0px;
+      }
+    </style>
+	</head>
+	<body>
+		<div class="p">
+			<div><img src="./images/q.jpg"/></div>
+			<div class="arrow left"><a href="#" class="arrow">&lt;</a></div>
+			<div class="arrow right"><a href="#" class="arrow">&gt;</a></div>
+		</div>
+	</body>
+</html>

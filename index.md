@@ -27,3 +27,4 @@
 * [CSS清除浮动练习1](CSS清除浮动练习1/index.html)  
 * [CSS清除浮动练习2](CSS清除浮动练习2/index.html)  
 * [定位练习1](定位练习1/index.html)  
+* [定位练习2](定位练习2/index.html)  

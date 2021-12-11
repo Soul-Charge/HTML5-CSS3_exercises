@@ -30,3 +30,4 @@
 * [定位练习2](定位练习2/index.html)  
 * [CSS属性选择器练习](CSS属性选择器练习/index.html)  
 * [CSS兄弟选择器练习](CSS兄弟选择器练习/index.html)  
+* [CSS伪类选择器练习](CSS伪类选择器练习/index.html)  

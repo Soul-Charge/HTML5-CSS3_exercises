@@ -28,3 +28,4 @@
 * [CSS清除浮动练习2](CSS清除浮动练习2/index.html)  
 * [定位练习1](定位练习1/index.html)  
 * [定位练习2](定位练习2/index.html)  
+* [CSS属性选择器练习](CSS属性选择器练习/index.html)  

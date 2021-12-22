@@ -31,3 +31,4 @@
 * [CSS属性选择器练习](CSS属性选择器练习/index.html)  
 * [CSS兄弟选择器练习](CSS兄弟选择器练习/index.html)  
 * [CSS伪类选择器练习](CSS伪类选择器练习/index.html)  
+* [精灵图练习1](精灵图练习1/index.html)  
